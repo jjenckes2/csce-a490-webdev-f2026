@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CourseHub | Contact</title>
+    <link rel="stylesheet" href="csss/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <p class="eyebrow">CSCE A490</p>
+        <h1>CourseHub</h1>
+        <p>A semester-long web development code-along.</p>
+      </div>
+    </header>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="index.html">Home</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="resources.html">Resources</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <main class="container">
+      <section aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Request help</h2>
+        <form action="" method="get">
+          <fieldset>
+            <legend>Student information</legend>
+            <label for="student-name">Name</label>
+            <input
+              id="student-name"
+              name="student_name"
+              type="text"
+              autocomplete="name"
+              required
+            />
+            <label for="student-email">Email</label>
+            <input
+              id="student-email"
+              name="student_email"
+              type="email"
+              autocomplete="email"
+              required
+            />
+          </fieldset>
+          <!--START REST OF FORM HERE-->
+        </form>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container"><p>&copy; 2026 CourseHub</p></div>
+    </footer>
+  </body>
+</html>
